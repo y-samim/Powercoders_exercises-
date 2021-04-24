@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    
+    <section>
+
+      <form action="index.html" method="post">
+         <label for="fname">First name:</label>
+         <input type="text" id="fname" name="fname" required><br>
+         <label for="lname">Last name:</label>
+         <input type="text" id="lname" name="lname" required>
+         <br>
+         <label for="Phone">Phone number:</label>
+         <input type="tel" id="phone" name="phone" required>
+
+      </form>
+    </section>
+<br>
+<hr>
+<br>
+
+  <form action="index.html" method="post">
+    <fieldset id="personal-info">
+
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" required><br>
+      <label for="fname">Last name:</label>
+      <input type="tex" id="fname" name="fname" required><br>
+      <label for="email">e-mail:</label>
+      <input tpye="email" id="email" name="email" required>
+
+      
+      </fieldset>
+
+  <legend>
+
+    <br>
+    <hr>
+    <form action="index.html" method="post">
+          <fieldset id="personal info">
+             <legend>Your requested date</legend>
+        
+        <label for="date" method="post">Please enter Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <br>
+        <br>
+
+         <label for="number">How many tickets:</label>
+         <input type="number" id="number" name="number" required>
+
+          </fieldset>
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+    <form action="index.html" method="post">
+
+      <fieldset id="Items">
+        <legend>Choose the items you want</legend>
+        <label for="Sunglasses">Sunglasses</label>
+        <input type="radio" name="sunglasses" value="classic" 
+        required>
+        <br>
+        <label for="Clothes">Clothes</label>
+        <input type="radio" name="clothes" value="classic" 
+        required>
+        <br>
+        <label for="Books">Books</label>
+        <input type="radio" name="Books" value="classic" 
+        required>
+        <br>
+        
+      </fieldset>
+
+    </form>
+<br>
+<hr>
+<br>
+
+<form action="index.html" method="post">
+
+   <fieldset id="comments">
+       <legend>Please write your suggestions</legend>
+          <label for="areacode">Area code </label>
+             <input type="tel" id="areacode" name="areacode" placeholder="Dont forget your area code!" required>
+
+       <br>
+
+            <label for="comments" >please write your comments:</label>
+           <textarea id="comments" name="comments"></textarea>
+        <br>
+
+       <label for="subscribe"> Subscribe monthly: </label>
+       <input type="checkbox" id="subscribe" name="subscribe" required>
+
+       <button type="submit">submit</button>
+ </fieldset>
+</form> 
+            
+
+    
+    
+
+  <br>
+  <br>
+
+
+  </body>
+</html>
