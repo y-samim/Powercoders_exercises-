@@ -1,0 +1,52 @@
+html{
+  box-sizing: border-box;
+  /* the root size would be to  10 px */
+  font-size: 0.625em;
+}
+
+*{
+  box-sizing: inherit;
+  font-size: 2rem;
+  margin:0;
+  padding: 0px;
+  text-align: center;
+}
+
+
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(170, 57, 57);
+  }
+
+
+h1 {
+    background-color: oldlace;
+    color: rgb(109, 29, 29);
+    font-size: 3.8rem;
+    font-weight: normal;
+    margin: 4rem 0;
+    text-transform: uppercase;
+}
+
+
+main {
+  display: grid;
+  border: 2px solid #cc5506;
+  border-radius: 5px;
+  background-color: #e2a555;
+  grid-template-columns: repeat(auto-fit, minmax(47.3rem, 1fr));
+  grid-gap: 3rem;
+
+}
+
+li {
+  background-color: rgb(168, 49, 33);
+ 
+  color: white;
+  pudding:10px;
+  list-style: none;
+  margin: 10px;
+
+
+}
+

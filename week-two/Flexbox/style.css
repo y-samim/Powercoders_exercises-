@@ -95,18 +95,13 @@ a {
 
 
 li {
-  flex-grow: 10px;
-  flex-shrink: 0;
-  flex-basis: 300px; //*this is the equal measure 25rem *//
-  margin: 1rem;
-  padding: 1rem;
- 
-  
- 
- 
- 
-}
-
+    /* You need to change the flex-grow value to 1, which means each flex items will grow equally when there are spaces.  The value 0 means they will stay the width of its content, they will not grow wider.*/
+    flex-grow: 1;   
+    flex-shrink: 0;
+    flex-basis: 300px; /*this is the equal measure 25rem */
+    margin: 1rem;
+    padding: 1rem;
+  }
 
 
 li {
