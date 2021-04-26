@@ -98,7 +98,7 @@ li {
     /* You need to change the flex-grow value to 1, which means each flex items will grow equally when there are spaces.  The value 0 means they will stay the width of its content, they will not grow wider.*/
     flex-grow: 1;   
     flex-shrink: 0;/*Because you set it too at least 300 px.  You change flex-shrink to "1", it means the items will shrink when there’s less space.Usually the screen size is more than 300 px. It won’t get that small*/
-    flex-basis: 300px; /*this is the equal measure 25rem */
+    flex-basis: 280px; /*this is the equal measure 25rem */
     margin: 1rem;
     padding: 1rem;
   }
