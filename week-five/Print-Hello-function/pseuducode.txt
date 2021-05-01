@@ -1,0 +1,28 @@
+Say Hello!
+-----------------------------
+
+
+
+Inputs:
+------
+name
+
+
+
+outputs:
+-------
+greeting with Hello + name  "!"
+
+
+constrains:
+----------
+-the input should not be empty
+
+
+
+steps:
+-----
+1:prompt user to type their name
+2: check for the input.
+3: while the input is empty then display a message   when the input is empty "name should not be empty".
+4: when the condition meets, show the output with hello greeting next to the name.

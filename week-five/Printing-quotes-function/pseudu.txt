@@ -1,0 +1,33 @@
+PRINTING QUOTES:
+----------------
+
+INPUT:
+-----
+prompt for an author name
+prompt for an QUOTE
+
+
+OUTPUT:
+------
+displays a message that the "author says, this quote"
+
+
+constraints:
+-----------
+check for charcter 
+input should not be empty
+
+
+STEPS:
+--------
+1. prompt the user to enter their name
+2. prompt the user to enter their quote
+3. check for the character of the both inputs
+4. if the input is empty and the are not character
+5. display the user a message "write down your the  
+   author name please"
+6. write the function to perform the action and dispay
+   the user input together.
+7. give values to the function to recall the string.
+
+

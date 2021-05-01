@@ -1,0 +1,34 @@
+Counting the number of Characters:
+---------------------------------
+
+
+
+Input:
+------
+name
+
+
+output:
+------
+displays a message that shows the number of the character
+
+
+
+constraint:
+----------
+input should be character
+
+
+steps:
+-----
+1. prompt the user for their name
+2. if the input is not a character display a message 
+   "please enter the name"
+3. count the character of the numbers
+4.display the counted character of the message
+
+
+
+
+
+
