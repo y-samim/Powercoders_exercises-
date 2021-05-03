@@ -1,0 +1,59 @@
+html{
+background-color: rgb(245, 200, 117);
+}
+
+*{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+header{
+  background-color: skyblue;
+  color: rgb(245, 200, 117);;
+}
+
+nav{
+  background-color: palevioletred;
+  color: rgb(245, 200, 117);
+}
+
+article{
+  background-color: teal;
+  color: rgb(245, 200, 117);
+}
+
+footer{
+  background-color: olive;
+  color: rgb(245, 200, 117);
+}
+
+.container {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 1fr 4fr; /*repeat(2,1fr);*/
+  grid-template-rows: 60px 200px 60px;
+}
+
+.header{
+  grid-column: 2/-1;
+  /*grid-column-end:3;*/
+  /*grid-column: 1/3; this does the action same as above*/
+}
+
+.navbar{
+grid-row:1/3;
+}
+
+
+.article{
+ grid-column: 2/3;
+}
+
+.footer{
+  grid-column:1/3; /*column spands to the width*/
+
+  /*grid-column:1 / span 3; starts at column 1 and spans at 3 column*/
+
+}
+
+

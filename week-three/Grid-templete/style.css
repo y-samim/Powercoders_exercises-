@@ -1,0 +1,74 @@
+html{
+background-color: rgba(0, 209, 209, 0.199);
+font-size: 0.625em;
+}
+
+*{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container{
+  height:100;
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 40px auto 40px;
+  /*
+  grid-template-areas:
+  ". h h h h h h h h h h ."
+  "n m m m m m m m m m m m"
+  "f f f f f f f f f f f. ";
+*/
+}
+
+.navbar{
+ dispay: grid;
+  grid-template-rows: repea(2,1fr);
+  background-color: skyblue;
+}
+
+.header{
+  grid-area: h;
+  background-color: plum;
+  
+}
+
+.main{
+ 
+  background-color: cornsilk;
+  
+}
+
+.footer{
+  grid-area: f;
+  background-color: rosybrown;
+}
+
+img{ 
+  display: -ms-inline-grid;
+  border-radius:80%;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+ul li{
+  list-style: none;
+  
+  justify-content: space-between;
+  padding: 2% 2%;
+  display: inline-flex;
+  grid-row: 100px;
+
+
+}
+
+.logo{
+  margin:0;
+  padding:0;
+
+
+}
+a{
+  text-decoration: none;
+}
