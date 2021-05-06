@@ -4,8 +4,10 @@ let userPassword = "";
 /*Show input to add new item*/
 let input = document.createElement("input");
 input.innerText="list";
+
 let btn = document.createElement("button");
 btn.innerText = "add item";
+
 let ul = document.createElement("ul");
 ul.innerText = "this is the to do list";
 
@@ -15,9 +17,20 @@ btn1.innerText ="remove item";
 let input1 =document.createElement("input");
 input1.inertext=("list");
 
+let h1 = document.createElement("h1");
+h1.innerHTML="Do you want to create a new list";
 
 
 
+function removeAll(){
+ ul.innerHTML ="";
+/* ul.innerText="the list items";
+if you want to add a text */
+
+  
+}
+
+h1.addEventListener("click",removeAll);
 
 
 
@@ -61,7 +74,6 @@ btn1.addEventListener("click", removeItem);
 
 
 
-
 userPassword =prompt("what is your password");
 while(userPassword !=password){
   userPassword=prompt("write the user password");
@@ -75,6 +87,7 @@ document.querySelector(`body`) .appendChild(btn);
 document.querySelector(`body`) .appendChild(ul);
 document.querySelector(`body`) .appendChild(btn1);
 document.querySelector(`body`) .appendChild(input1);
+document.querySelector(`body`) .appendChild(h1);
 
 
 
