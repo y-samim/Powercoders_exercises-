@@ -1,8 +1,23 @@
 body {
   padding: 20px;
   background-color: lightgoldenrodyellow;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+ 
+  
+}
+
+*{
+ 
   align-items: center;
 }
+
+
 button {
   margin-top: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -10,10 +25,12 @@ button {
   padding: 0 40px;
   background: salmon;
   border: none;
-  width: 150px;
-  height: 90px;
+  width: 120px;
+  height: 50px;
   text-align: center;
   color:white;
+  position: relative;
+  border: 3px solid green;
   
 }
 button:hover {
@@ -25,4 +42,23 @@ h1{
   background-color: teal;
   color: white;
   width: 450px;
+  text-align: center;
+}
+
+ul{
+ 
+  height: 200px;
+  border: 4px solid green;
+  border-radius: 5px;
+  position: relative;
+}
+
+input{
+  margin: 30px;
+  background-color: skyblue;
+}
+
+
+input1{
+margin: 40px;
 }

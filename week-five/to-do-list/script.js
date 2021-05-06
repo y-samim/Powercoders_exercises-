@@ -18,7 +18,7 @@ let input1 =document.createElement("input");
 input1.inertext=("list");
 
 let h1 = document.createElement("h1");
-h1.innerHTML="Do you want to create a new list";
+h1.innerHTML="Click me if you want a new list";
 
 
 
@@ -74,7 +74,7 @@ btn1.addEventListener("click", removeItem);
 
 
 
-userPassword =prompt("what is your password");
+userPassword =prompt("what is your password? hint it is pasword");
 while(userPassword !=password){
   userPassword=prompt("write the user password");
 }
