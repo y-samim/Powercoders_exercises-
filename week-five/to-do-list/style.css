@@ -1,0 +1,19 @@
+body {
+  padding: 20px;
+}
+button {
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding: 0 40px;
+  background: salmon;
+  border: none;
+  width: 150px;
+  height: 90px;
+  text-align: center;
+  color:white;
+}
+button:hover {
+  background: lightseagreen;
+}
+
