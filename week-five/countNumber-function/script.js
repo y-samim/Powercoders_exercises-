@@ -7,3 +7,12 @@ function countChar(name){
 }
 
 console.log(`Your name contains`+ " " + countChar(personName) + " " + `character`);
+
+
+
+const num = 124323;
+const reverse = (num) => parseInt(String(num)
+.split("")
+.reverse()
+.join(""), 10);
+console.log(reverse(num));

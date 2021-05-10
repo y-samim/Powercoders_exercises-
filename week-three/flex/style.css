@@ -1,0 +1,266 @@
+html{
+    background-color: rgb(249, 252, 252);
+    box-sizing: border-box;
+     /* set to the  root size to 10 px */
+      font-size: 0.625em;
+  }
+
+  *,*::before,*::after{
+      box-sizing: inherit;
+  }
+  
+
+  *{
+   box-sizing: inherit;
+    font-size: 2rem;
+    margin:0;
+    padding: 0;
+    text-align: center;
+   
+  }
+  
+
+ #container{
+   
+/*background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.473),rgba(0, 0, 0, 0.7)), url(tree.jpg); 
+background-position: center;
+background-size: cover;
+position: relative;
+min-height: 100vh;
+width: 100%;
+margin: 0px;
+*/
+display: flex;
+flex-wrap: wrap;
+position: absolute;
+top:0;
+
+}
+
+
+.img1{
+  width: 100%;
+  min-height: 100vh;
+  
+}
+
+.header{
+  margin:2rem;
+  flex:1;
+  order: 1;
+ 
+}
+
+
+#logo {
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 3rem;
+  transition-property: font-size;
+  transition-duration: 6s;
+  transition-delay: 2s;
+  color: rgb(27, 68, 39);
+ text-shadow: 1px 1px 2px black, 0 0 25px rgb(22, 53, 34), 0 0 5px rgb(4, 39, 15);
+}
+
+#logo:hover {
+font-size: 7rem;
+}
+
+
+section header h1{
+  color: rgb(22, 54, 44);
+ 
+  text-align: left;
+  padding: 7px;
+}
+
+
+.navbar{
+flex: 1;
+order:1;
+margin: 2rem;
+
+}
+
+
+
+.navbar ul li{
+ 
+  display: inline;
+  margin-left: 0px;
+  list-style: none;
+  text-decoration: none;
+  padding: 8px 12px;
+  position: relative;
+}
+
+
+.navbar ul li a{
+  margin-right: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bold;
+  color: rgb(27, 68, 39);
+ text-shadow: 1px 1px 2px black, 0 0 25px rgb(22, 53, 34), 0 0 5px rgb(4, 39, 15);
+}
+
+
+
+section p{
+  text-align: center;
+  padding:300px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  text-decoration-color: whitesmoke;
+}
+
+
+#main{
+  display: flex;
+  flex-wrap: no nowrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 6rem;
+  text-align: center;
+ 
+
+}
+
+
+.article1{
+  border:3px solid green;
+  padding: 6rem;
+  flex-direction: row;
+
+}
+
+
+.article2{
+  border:3px solid green;
+  padding: 6rem;
+  flex-direction: row;
+
+}
+
+.article3{
+  border:3px solid green;
+  padding: 6rem;
+  flex-direction: row;
+
+}
+
+
+.article4{
+  border:3px solid green;
+  padding: 6rem;
+  flex-direction: row;
+
+}
+
+.article5{
+  border:3px solid green;
+  padding: 6rem;
+  flex-direction: row;
+
+}
+
+
+#pic{
+  
+    border-radius:80%;
+    height: 240px;
+    width: 250px;
+    object-fit: cover;
+    transition: width 2s, height 4s;
+
+
+
+}
+
+#pic:hover {
+  width: 300px;
+  height:300px;
+}
+
+
+
+.intro-box{
+    width: 90%;
+    color: rgb(28, 59, 22);
+    position:absolute; /* this will sets the box inside the image intro */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /* sets in the center of the div*/
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+
+
+
+.intro-box h1{
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    
+}
+
+
+.intro-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: rgb(82, 88, 83);
+}
+
+.intro-box a{
+   font-family: 'Nanum Myeongjo', serif;
+   border:2px solid black;
+}
+
+
+
+#main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+@media screen and (max-width: 900px){
+  #main{
+    flex-direction: column;
+    margin: 2%;
+    min-width:96%;
+  }
+
+  #container{
+    flex-direction: column;
+    margin: 2%;
+    min-width:96%;
+  }
+
+
+  
+}
+
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(13, 26, 14);
+    padding-top: 50px;
+    display: block;
+}
+
+footer h3{
+   
+    margin-top: 20px;
+    font-weight: 100;
+
+}

@@ -1,0 +1,46 @@
+
+
+.formStyle1{
+  
+  padding: 20px;
+  margin:20px;
+  align-items: center;
+  border: 6px solid cornflowerblue;
+  border-radius: 6px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
+
+formStyle2{
+  display: none;
+}
+
+
+.sign{
+  
+  background-color: royalblue;
+  color: white;
+}
+
+.btn1{
+  background-color: royalblue;
+  color: white;
+}
+
+#msg{
+  royalblue;
+  background-color: royalblue;
+  color: white;
+
+}
+
+.duck{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hidden{
+  display: none;
+}
+

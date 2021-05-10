@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Form-login</title>
+</head>
+<body>
+
+
+
+    <section>
+
+      <form class="formStyle1 formStyle2" action="index.html" method="post">
+
+         <label for="name">name</label>
+         <input type="text" id="name" name="name" required><br>
+
+            <br>
+
+
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" required>
+
+       
+
+         <label for="email">email</label>
+         <input type="email" id="email" name="email" required>
+         <br>
+
+         
+          <br>
+          
+        <input class="sign" type="submit" value="Sign in" name="submit">
+        <!-- it should be giving a name to every form, so JS will select here -->
+        
+        
+        <input class="time" type="time" id="myTime" value="22:15:00">
+        
+       <button onclick="myFunction1()">show time</button>
+
+       <p id="demo"></p>
+
+        <br>
+        <hr>
+
+
+
+      </form>
+
+    </section>
+  
+  <section class="duck hidden">
+    <div id="like">
+      <p><strong> click me for a like!</strong></p>
+      <input type="image" src="http://i.stack.imgur.com/wPh0S.jpg" style="width: 200px; height: 150px; alt="Like" title="Like" width= "34" height="33" id="heart" onClick="onClick()">
+    <div>
+        <span id="output"></span>
+    </div>  
+
+    <!--
+    <img 
+    style="width: 200px; height: 150px;" 
+    src="http://i.stack.imgur.com/wPh0S.jpg">
+    -->
+    
+    <form>
+      
+<h3>please write your comment!</h3>
+<!--A demonstration of how to access a Text Field-->
+<input  type="text" id="myText" value="Some text..." name="text">
+<button id="msg" onclick="sharePost()">post</button>
+
+<p id="demo2"></p>
+
+
+    </form>
+    
+    <button class="btn1" onclick="myLike()">LIKE</button>
+
+  </section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
